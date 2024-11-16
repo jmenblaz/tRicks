@@ -70,7 +70,7 @@ df_long <- pivot_longer(sim_df, cols = -time, names_to = "series", values_to = "
 ggplot(df_long, aes(x = time, y = value, group = series)) +
   # Simulated series in gray with transparency
   geom_line(data = subset(df_long, grepl("simulated_", series)),
-            aes(color = "simulated"), alpha = 0.2, size = 0.6) +
+            aes(color = "simulated"), alpha = 0.4, size = 0.6) +
   # Original series in sky blue
   geom_line(data = subset(df_long, series == "original"),
             aes(color = "original"), size = 1.2) +
