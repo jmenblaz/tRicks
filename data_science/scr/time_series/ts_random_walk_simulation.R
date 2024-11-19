@@ -3,7 +3,7 @@
 
 # -----------------------------------------------------------------------
 # Generate a random time series based in a original one based in
-# random alk models
+# random walk models
 
 # GitHub: @jmenblaz
 
