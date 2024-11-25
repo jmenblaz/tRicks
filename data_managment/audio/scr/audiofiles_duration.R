@@ -10,9 +10,10 @@
 #--------------------------------------------------------------------------
 
 
-# installed.packages(soundgen)
-# A usefull packgae for use and manage audio files
-library(soundgen)
+# install.packages(soundgen)
+# install.pacjages(doParallel)
+
+library(soundgen)   # A usefull packgae for use and manage audio files (CRAN)
 library(doParallel)
 
 # 0. folder with contain the audio files --------------------------------------
